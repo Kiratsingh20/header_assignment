@@ -1,0 +1,23 @@
+/0000
+	{
+		/glob "*"
+		/type "deny"
+ 	}
+
+/0001
+	{
+		/glob "/content/dam/*"
+		/type "allow"
+ 	}
+	
+/0002
+	{
+		/glob "/content/adc/*"
+		/type "allow"
+ 	}
+	
+/0003
+	{
+		/glob "/etc.clientlibs/Singtel/clientlibs/*"
+		/type "allow"
+ 	}

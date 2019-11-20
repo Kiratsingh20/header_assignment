@@ -1,0 +1,5 @@
+# each farm configures a set of (load-balanced) renders
+/farms
+  {
+		$include "singtel-publish-farm.any"
+  }

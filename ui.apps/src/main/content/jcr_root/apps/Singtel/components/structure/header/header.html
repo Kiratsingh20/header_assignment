@@ -1,0 +1,8 @@
+<sly data-sly-use.headerModel="Singtel.Assignment.core.models.HeaderModel">
+	<ul data-sly-list.child="${headerModel.pagePath.listChildren}">
+		<li><a href="${child.path}.html"/>${child.title}</li>
+			<ul data-sly-list.children="${child.listChildren}">
+ 				<li><a href="${children.path}.html"/>${children.title}</li>
+			</ul>
+	</ul>
+</sly>
